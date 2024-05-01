@@ -1,0 +1,92 @@
+
+.main-container{
+    width: 60vw;
+    height: 95vh;
+    background-color: rgb(230, 229, 229);
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+
+.main-header,.main-section,.main-footer-1,.main-footer-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown-1,.conjunction,.dropdown-2{
+    margin: 1rem 0 0 2rem;
+}
+
+.conjunction{
+    align-content: center;
+}
+
+.src-dropdown-1,.dest-dropdown-2{
+    width: 12rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.main-section{
+    justify-content: space-around;
+    margin: 3rem 0 3rem 0;
+}
+
+#dropdown-source, #dropdown-dest{
+    border: none;
+    outline: 0.2rem solid rgb(211, 212, 211);
+    padding-left: 0.5rem;
+    font-size: 1.8rem;
+    color: rgb(75, 74, 74);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#source-textarea, #destination-textarea{
+    width: 35rem;
+    height: 20rem;
+    padding: 1rem;
+    font-size: 1.6rem;  
+    border: none;
+    outline: 0.2rem solid rgb(211, 212, 211);
+}
+
+#source-textarea:focus, #destination-textarea:focus{
+    background-color: rgb(200, 224, 248);
+   
+}
+#source-textarea{
+    color: blue;
+}
+#destination-textarea{
+    color: rgb(22, 187, 22);
+}
+
+.main-footer-1,.main-footer-2{
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+#btn-clear{
+    margin-right: 3rem;
+}
+
+#btn-convert,#btn-new-conversion{
+    margin-right: 2rem;
+}
+
+.center-btn-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#btn-copy, #btn-new-conversion, #btn-convert, #btn-clear{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+#lbl-copy, #lbl-conversion{
+    margin-left: 0.5rem;
+}
