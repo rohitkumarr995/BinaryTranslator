@@ -16,6 +16,7 @@ import {
   textToHex,
 } from "../utils/Converters";
 import "../stylesheets/DataInbox.css";
+import '../media/DataInbox.css'
 import { Copy } from "lucide-react";
 import { RotateCcw } from "lucide-react";
 import Button from "@mui/material/Button";

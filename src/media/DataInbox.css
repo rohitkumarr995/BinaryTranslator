@@ -1,0 +1,36 @@
+
+@media(max-width:480px){
+    .main-container{
+        width: 90vw;
+        height: 95vh;
+    }
+
+    .main-header{
+        justify-content: center;
+    }
+    
+    .dropdown-1{
+        margin-right: 2rem;
+        margin-left: 0;    
+    }
+    
+    .conjunction{
+        margin-left: 0;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main-section{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 3rem 0 3rem 0;
+    }
+    
+    
+    #source-textarea, #destination-textarea{
+        width: 30rem;
+        height: 8rem;
+    }
+}

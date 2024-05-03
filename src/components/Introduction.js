@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/Introduction.css'
+import '../media/Introduction.css'
 
 function Introduction() {
   return (
@@ -9,7 +10,6 @@ function Introduction() {
         <p id='main-para'>Translate Binary code to text in just one click. Simply paste your binary text, hit the 
             “Translate Binary” button and get the result!</p>
     </section>
-      
     </>
   )
 }
