@@ -213,7 +213,7 @@ export default function DataInbox() {
                   <RotateCcw />
                 </div>
                 <div id="lbl-conversion">
-                  <strong>Start new Conversion</strong>
+                  <strong>New Conversion</strong>
                 </div>
               </Button>
             </div>
