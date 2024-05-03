@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import DestDropdown from "./DestDropdown";
 import {
   ASCIIToBinary,
@@ -6,7 +6,6 @@ import {
   binaryToDecimal,
   binaryToHex,
   binaryToText,
-  binarytoHex,
   decimalToBinary,
   decimalToHex,
   hexToBinary,
@@ -32,6 +31,10 @@ export default function DataInbox() {
   const [selectedOption, setSelectedOption] = useState("");
 
   const convertedValRef = useRef(null);
+
+  useEffect(()=>{
+    document.title = "Binary Calculator"
+  },[])
 
   const selectOption = (event) => {
     setOption(event.target.value);
